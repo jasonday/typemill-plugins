@@ -1,0 +1,16 @@
+name: CustomCSS
+version: 1.0
+description: Include custom CSS via file
+author: jasonday
+homepage: http://github.com/jasonday
+licence: MIT
+paypal: https://paypal.me/MoveMaineLLC
+amount: 5
+
+forms:
+  fields:
+    customcss:
+      type: text
+      label: Custom CSS file name
+      help: Place custom CSS file in plugins/customCSS/css/
+      placeholder: 'style.css'
