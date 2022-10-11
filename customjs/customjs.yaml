@@ -1,0 +1,16 @@
+name: CustomJS
+version: 1.0
+description: Include custom javascript via file
+author: jasonday
+homepage: http://github.com/jasonday
+licence: MIT
+paypal: https://paypal.me/MoveMaineLLC
+amount: 5
+
+forms:
+  fields:
+    customjs:
+      type: text
+      label: Custom javascript file name
+      help: Place javascript file in plugins/customjs/js/
+      placeholder: 'script.js'
