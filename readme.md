@@ -1,11 +1,24 @@
-# Typemill Custom CSS & JS
+# Typemill Plugins
 
-Use these plugins to add custom CSS or custom javascript to your [Typemill](https://github.com/typemill/typemill) theme.
+## Custom CSS
+* Add custom CSS to your site. 
+* A default style.css already exists. If using that file, just enter that file name into the field. 
+* Custom CSS files must be located in the `plugins/customcss/css` directory
+## Custom JS
+* Add custom javascript to your site. 
+* A default script.js already exists. If using that file, just enter that file name into the field. 
+* Custom javascript files must be located in the `plugins/customjs/css` directory
+## HTMLopen and HTMLclose shortcodes
+* Adds configurable html tags to content via shortcodes
+* Pugins/shortcodes must be used together
+* Use
+	```
+	[:htmlopen tag="div" id="author" class="card":]
+	my content
+	[:htmlclose tag="div":]
+	```
+* Can nest shortcodes just like HTML for complex layouts & elements in Typemill markdown
+* _Need to extend for other HTML attributes (for iframes, etc.)_
 
-## Use
-* Upload either plugin to the `plugins` directory
-* In Settings>Plugins activate the plugin and enter a value for the file name
-	* For each plugin, a default file already exists in both locations.If using that file, just enter that file name into the field. 
-	* Custom CSS files must be located in the `plugins/customcss/css` directory
-	* Custom javascript files must be located in the `plugins/customjs/js` directory
+
 
