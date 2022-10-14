@@ -10,7 +10,7 @@
 * Custom javascript files must be located in the `plugins/customjs/js` directory
 ## HTMLopen and HTMLclose shortcodes
 * Adds configurable html tags to content via shortcodes
-* Plugins/shortcodes must be used together
+* Plugins/shortcodes must be used together (HTML must have an opening and closing tag to be valid HTML and to render correctly)
 * Use
 	```
 	[:htmlopen tag="div" id="author" class="card":]
