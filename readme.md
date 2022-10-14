@@ -7,7 +7,7 @@
 ## Custom JS
 * Add custom javascript to your site. 
 * A default script.js already exists. If using that file, just enter that file name into the field. 
-* Custom javascript files must be located in the `plugins/customjs/css` directory
+* Custom javascript files must be located in the `plugins/customjs/js` directory
 ## HTMLopen and HTMLclose shortcodes
 * Adds configurable html tags to content via shortcodes
 * Pugins/shortcodes must be used together
