@@ -1,3 +1,7 @@
+[![Donate](https://img.shields.io/badge/Donate-PayPal-green.svg)](https://www.paypal.com/paypalme/MoveMaineLLC/5)
+
+
+
 # Typemill Plugins
 A set of plugins for the [Typemill](https://github.com/typemill) flat file CMS. 
 
